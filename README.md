@@ -12,31 +12,38 @@ This is a simple Django web application that serves as a skeleton for a catalog 
 
 Follow these steps to get the project running on your local machine:
 
-### 1. Clone the repositort
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/godfreymosesjnr/Django-catalog-webapp-skeleton.git
+```
 
 ### 2. Navigate into the project directory
 
+```bash
 cd learning_django
+```
 
 ### 3. Set up a virtual environment (for first-time users)
 
+```bash
 python -m venv env(name of your virtual environment)
 source env/bin/activate
 
 For Windows:
 env\Scripts\activate
+```
 
 ### 4. Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Apply migrations and run the server
-
+```bash
 python manage.py migrate
 python manage.py runserver
+```
 
 ### 6. View the website
 Open your web browser and navigate to:
